@@ -1,5 +1,3 @@
-export const runtime = 'edge';
-
 import { ApiPath } from "@/app/constant";
 import { NextRequest } from "next/server";
 import { handle as openaiHandler } from "../../openai";
